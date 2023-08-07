@@ -14,7 +14,7 @@ export default function SwiperComp() {
     <>
       <Swiper
         slidesPerView={'auto'}
-        spaceBetween={1}
+        spaceBetween={27}
         pagination={{
           clickable: true,
         }}

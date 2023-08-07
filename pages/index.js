@@ -10,7 +10,7 @@ export default class Home extends React.Component {
     return (
       <>
         <Header />
-        <div>
+        <div style={{ margin: '0 15px' }}>
           <SwiperComp />
         </div>
         <div className="p-3">

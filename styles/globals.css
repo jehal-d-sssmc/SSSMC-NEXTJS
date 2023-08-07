@@ -46,6 +46,7 @@ header.topnav {
   margin: 0 auto;
   color: #fff;
   border-radius: 4px;
+  font-size: 14px;
 }
 
 .mynavbar .menu {
@@ -119,7 +120,7 @@ header.topnav {
   text-align: left;
   -webkit-backdrop-filter: saturate(63%) blur(9px);
   backdrop-filter: saturate(63%) blur(9px);
-  background: hsla(0,0%,100%,.5);
+  background: hsla(0, 0%, 100%, 0.5);
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 
@@ -150,7 +151,7 @@ header.topnav {
   padding: 30px 0;
   -webkit-backdrop-filter: saturate(63%) blur(9px);
   backdrop-filter: saturate(63%) blur(9px);
-  background: hsla(0,0%,100%,.5);
+  background: hsla(0, 0%, 100%, 0.5);
 }
 
 /* End Single Section Menu */
@@ -204,22 +205,23 @@ header.topnav {
 
 .vslider .swiper-slide {
   width: 45%;
+  border-radius: 15px;
+  overflow: hidden;
 }
 
-.section-title{
+.section-title {
   color: #004071;
   position: relative;
   display: inline-block;
 }
 
-.section-title::after{
-  content: "";
+.section-title::after {
+  content: '';
   position: absolute;
   border: 2px solid #d21d25;
   top: 100%;
   left: 9px;
   width: 90%;
-  
 }
 
 @media only screen and (max-width: 768px) {
