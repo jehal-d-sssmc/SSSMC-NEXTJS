@@ -14,7 +14,6 @@ export default function Shorts() {
     <>
       <Swiper
         slidesPerView={'auto'}
-        slidesPerView={9}
         spaceBetween={10}
         pagination={{
           clickable: true,
