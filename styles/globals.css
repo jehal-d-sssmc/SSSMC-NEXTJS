@@ -185,6 +185,10 @@ header.topnav {
   height: 100%;
 }
 
+.shorts .swiper-wrapper {
+  justify-content: center;
+}
+
 .swiper-slide {
   text-align: center;
   font-size: 18px;
@@ -207,6 +211,16 @@ header.topnav {
   width: 45%;
   border-radius: 15px;
   overflow: hidden;
+}
+
+.shorts .swiper-slide {
+  width: 216px;
+  border-radius: 15px;
+}
+
+.watch .swiper-slide {
+  width: 25%;
+  border-radius: 15px;
 }
 
 .section-title {
@@ -235,6 +249,7 @@ header.topnav {
     font-size: 21px;
   }
   .mynavbar {
+    display: none;
     position: absolute;
     transition: top 0.3s ease-in;
     left: 0;
@@ -288,8 +303,14 @@ header.topnav {
   .mynavbar .menu li .mycontainer__listItem {
     flex-basis: 100%;
   }
+  .swiper-wrapper {
+    justify-content: flex-start;
+  }
 
   .vslider .swiper-slide {
+    width: 90%;
+  }
+  .watch .swiper-slide {
     width: 90%;
   }
 }
