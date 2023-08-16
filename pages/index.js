@@ -5,16 +5,20 @@ import Header from '../client/components/Common/Header';
 import SwiperComp from '../client/components/Home/SwiperComp';
 import Shorts from '../client/components/Home/Shorts';
 import Watch from '../client/components/Home/Watch';
+import Footer from '../client/components/Common/Footer';
 
 export default class Home extends React.Component {
   render() {
     return (
       <>
         <Header />
-        <div className="p-2"></div>
-        <div style={{ margin: '0 15px' }}>
-          <SwiperComp />
-        </div>
+        <section id="">
+          <div className="p-2"></div>
+          <div style={{ margin: '0 15px' }}>
+            <SwiperComp />
+          </div>
+        </section>
+
         <div className="p-3">
           <h3 className="section-title">Shorts</h3>
           <div className="p-2"></div>
@@ -26,6 +30,7 @@ export default class Home extends React.Component {
           <div className="p-2"></div>
           <Watch />
         </div>
+        <Footer />
       </>
     );
   }

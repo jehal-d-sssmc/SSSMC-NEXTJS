@@ -238,6 +238,13 @@ header.topnav {
   width: 90%;
 }
 
+footer {
+  border-top: 5px solid #cc8d31;
+  padding-top: 54px;
+  margin-top: 63px;
+  background-color: #f9f6ef;
+}
+
 @media only screen and (max-width: 768px) {
   .mobile-menu {
     display: block;
