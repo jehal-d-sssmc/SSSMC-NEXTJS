@@ -16,6 +16,17 @@ export default class Footer extends React.Component {
               <FooterMenu />
             </div>
           </footer>
+          <div className="signature text-center p-4 bg-dark-1">
+            <img
+              src="https://www.sssmediacentre.org/3b747c129ddbee2fc2adf3b9d28dfbdf.jpg"
+              className="img-responsive"
+              alt=""
+            />
+          </div>
+          <div className="copyright text-center p-3 bg-dark-0">
+            &copy; {new Date().getFullYear()} SSSMC Division. All Rights
+            Reserved
+          </div>
         </div>
       </>
     );

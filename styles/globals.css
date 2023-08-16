@@ -245,6 +245,23 @@ footer {
   background-color: #f9f6ef;
 }
 
+.copyright,
+.signature {
+  color: rgb(164, 165, 173);
+}
+
+.copyright a,
+.signature a {
+  color: rgb(164, 165, 173);
+}
+
+.bg-dark-0 {
+  background-color: #153147;
+}
+.bg-dark-1 {
+  background-color: #004071;
+}
+
 @media only screen and (max-width: 768px) {
   .mobile-menu {
     display: block;
